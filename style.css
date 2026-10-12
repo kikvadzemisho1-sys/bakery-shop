@@ -1,0 +1,141 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+
+.header {
+  background-color: #fff;
+  padding: 25px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a {
+  color: #222;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #d19a54;
+}
+
+.hero {
+  min-height: 650px;
+  display: flex;
+  align-items: center;
+  background-image: url("images/vegetables-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.hero-content {
+  max-width: 550px;
+}
+
+.hero-label {
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.hero-description {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 15px 35px;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero-btn:hover {
+  background-color: #d19a54;
+}
+
+.hero-content {
+  max-width: 550px;
+  padding: 35px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.hero {
+  padding: 60px 0;
+}
+
+.hero-content {
+  width: 500px;
+  max-width: calc(100% - 40px);
+  margin-left: max(20px, calc((100% - 1140px) / 2));
+  padding: 40px;
+}
+
+.hero h1 {
+  font-size: 56px;
+  line-height: 1.1;
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    margin-left: 20px;
+    padding: 25px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+}
